@@ -133,21 +133,21 @@ span {
 }
 
 .grid-container__item.parent-remarks2 {
-    background-color: rgb(75, 183, 219);
+    background-color: #C4CBCA;
     padding: 24px;
     font-weight: bold;
     gap: 24px;
     border-radius: 20px 80px;
-    box-shadow: 10px 10px 10px rgb(75, 183, 219);
+    box-shadow: 10px 10px 10px #C4CBCA;
 }
 
 .grid-container__item.parent-remarks3 {
-    background-color: #D36060;
+    background-color: #B3A394;
     padding: 24px;
     font-weight: bold;
     gap: 24px;
     border-radius: 20px 80px;
-    box-shadow: 10px 10px 10px #D36060;
+    box-shadow: 10px 10px 10px #B3A394;
 }
 
 
