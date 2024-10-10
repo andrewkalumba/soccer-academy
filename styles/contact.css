@@ -142,12 +142,7 @@ footer {
      }
 
     .header__page-title {
-    color: #F75590;
-    text-align: center;
-    padding: 10px;
-    margin: 0;
-    font-size: 1rem;
-    font-weight: bold;
+        display: none;
     }
     
     .bg-image {
