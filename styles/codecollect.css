@@ -6,7 +6,7 @@ html {
 }
 
 nav {
-    background: #5ab2c870;
+    background-color: #5ab2c870;
     height: 80px;
     display: flex;
     justify-content: right;
