@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="./styles/codecollect.css">
+</head>
+
+<body>
+    <div class="bg-image">
+        <nav>
+            <img src="./images/logo.jpeg" alt="Logo" class="logo">
+            <h1 class="header__page-title">Contact Us</h1>
+            <div class="nav-items">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+        </nav>
+        
+        <section class="main-content">
+            <div>
+                <form action="mailto: andrewkalumba29@gmail.com" enctype="text/plain" method="get" class="user__form">
+                
+                    <fieldset>
+                        <legend>Personal information</legend>
+                        <label for="user-name">Enter your name<span class="control-label">*</span></label>
+                        <input type="text" class="name-input" name="user-name" id="user-name" placeholder="" required>
+
+                        <label for="user-age">Enter your age</label>
+                        <input type="text" id="user-age">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Your message</legend>
+                        <label for="user-message">Enter your message below<span class="control-label">*</span></label>
+                        <textarea id="user-message" class="user-message" required></textarea>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Options</legend>
+                        <label for="user-priority">Is the message important</label>
+                        <input name="user-priority" id="user-priority" type="checkbox" value="important message">
+                        <label for="gender">Choose your gender</label>
+                        <select id="gender" name="gender">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </fieldset>
+                    
+
+                    <button type="submit">Submit</button>  
+                </form>
+                <input type="checkbox" id="newsletter" name="newsletter" value="newslettersignup">
+                <label for="newsletter" class="newsletter">Join our newsletter</label>
+            </div>
+            </div>
+        </section>
+        <footer>
+            <a class="social-icon" href="https://instagram.com/five_stars_sports_club" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a class="social-icon" href="https://facebook.com/five stars fc entebbe" target="_blank">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a class="social-icon" href="https://youtube.com/@fivestarsfcentebbe779" target="_blank">
+                <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+           
+            <p>Copyright @2024 fivestars All rights reserved.</p>
+        </footer>
+</body>
+</html>
