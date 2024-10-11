@@ -53,11 +53,12 @@ span {
 }
     
 .marquee {
-    color: #8D86C9;
+    color: #1A1423;
     margin: 16px;
     font-size: 1.2rem;
     font-weight: bold;
     font-style: italic;
+    text-shadow: 10px 10px 10px #1A1423;
 }
     
 .img-swap {
