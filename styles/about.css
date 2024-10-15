@@ -1,13 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    height: 100%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-  
 .main-content {
     background-image: url(../images/youth17.jpg);
     background-attachment: fixed;
@@ -50,7 +40,7 @@ body {
     grid-area: soccer;
     font-weight: bold;
     background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 30px;
+    height: auto;
     backdrop-filter: blur(5px);
     border: 3px solid #f1f1f1;
 }
@@ -67,18 +57,38 @@ body {
     border-radius: 40px;
 }
 
-.h3 {
+.board {
     font-weight: bolder;
     text-align: center;
-    color: #3d405b;
+    color: #F75590;
 }
+
+table {
+    padding: 5px;
+    align-items: center;
+    margin: auto;
+}
+
+th, td {
+    border-style: dotted;
+    border-radius: 10px;
+  }
+
+.image-name {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 24px;
+}
+
 footer {
     background-color: #2D2A32;
     grid-area: footer;
     padding: 16px;
     text-align: center;
 }
-footer p{
+
+footer p {
     color: #F75590;
 }
 
@@ -112,10 +122,14 @@ footer p{
 
 .grid-container {
     display: contents;
-    padding: 16px;
-    
+    padding: 16px;  
 }
+
 #img1, #img3, #img4, #img5, #img6 {
+    display: none;
+}
+
+.image-name {
     display: none;
 }
 }

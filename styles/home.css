@@ -1,8 +1,5 @@
 body {
-    margin: 0;
     padding: 0;
-    font-family: Nunito, sans-serif;
-    height: 100%;
 }
 
 .header__page-title {
@@ -77,22 +74,27 @@ span {
     0% {
         background-image: url(../images/youth3.jpg);
     }
+
     20% {
         background-image: url(../images/youth6.jpg);
     }
+
     40% {
         background-image: url(../images/youth10.jpg);
     }
+
     60% {
         background-image: url(../images/youth15.jpeg);
     }
+
     80% {
         background-image: url(../images/youth14.jpeg);
     }
+
     100% {
         background-image: url(../images/youth2.jpeg);
     }
-    }
+}
     
 .scroll-container {
     overflow: scroll;
@@ -151,7 +153,6 @@ span {
     box-shadow: 10px 10px 10px #B3A394;
 }
 
-
 @media screen and (max-width:768px) {
     .scroll-container {
         overflow: scroll;
@@ -209,7 +210,7 @@ span {
         text-align: center;
         color: #F75590;
         padding: 16px;
-        margin-top: 16px;
+        margin-top: 70px;
     }
 
   }
