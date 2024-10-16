@@ -21,6 +21,25 @@
     font-size: 1.2rem;
 }
 
+.return {
+    background-color: #5ab2c870;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+    color: #6D8EA0;
+    font-weight: 900;
+    border-radius: 20px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.return:hover {
+    background-color: #2D2A32;
+    color: #F75590;
+}
+
 h4 {
     color: #2D2A32;
     font-size: 1rem;
